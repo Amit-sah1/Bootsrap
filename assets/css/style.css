@@ -1,10 +1,3 @@
-/**
-* Template Name: MyResume - v4.8.1
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -284,7 +277,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  /* background-color: linear-gradient(90deg, #000428 0%, #003059 100%) top right no-repeat; */
+  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
   background-size: cover;
   position: relative;
 }
@@ -297,7 +291,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8); */
+  background: linear-gradient(90deg, #000428 0%, #003059 100%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -758,7 +753,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: linear-gradient(90deg, #000428 0%, #003059 100%);
   opacity: 1;
   border: 1px solid #0563bb;
 }
@@ -1005,7 +1000,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: linear-gradient(90deg, #000428 0%, #003059 100%);
   opacity: 1;
   border: 1px solid #0563bb;
 }
